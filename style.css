@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 100vh;
+  background-color: 0;
+  background-image: url(./mariah\ betinho\ 1.png);
+  background-size: 100% 110vh;
+  background-position: center;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 6em;
+  color: #d90000;
+  font-weight: 400;
+  font: "itim", cursive;
+  width: 60%;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */

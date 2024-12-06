@@ -1,0 +1,40 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+header{
+    height: 100vh;
+    background-color: green($color: #000000);
+    background-image: url(./mariah\ betinho\ 1.png);
+    background-size: 100% 110vh;
+    background-position: center;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+
+
+}
+
+h1{
+    font-size: 6em;
+    color: #d90000;
+    font-weight: 400;
+    font: "itim", cursive;
+    width: 60%;
+    text-align: center;
+
+}
+@media (min-width:201px)and(max-width:500px){
+    header{align-items: start;
+    }
+    h1{
+        font-size: 6em;
+        color: rgb(244,0,0);
+        background-color: rgba(11,138,49,0.2);
+        border-radius: 20px;
+    
+    }
+
+    
+}
